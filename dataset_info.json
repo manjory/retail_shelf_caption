@@ -1,0 +1,45 @@
+{
+  "dataset_name": "Enhanced Retail Shelf Dataset - ML Ready",
+  "version": "2.0",
+  "total_images": 200,
+  "image_size": "1024x768",
+  "categories": {
+    "beverages": 20,
+    "snacks": 20,
+    "cereal": 20,
+    "dairy": 20,
+    "bakery": 20,
+    "frozen": 20,
+    "canned": 20,
+    "produce": 20,
+    "meat": 20,
+    "mixed": 20
+  },
+  "stock_levels": {
+    "full": 30,
+    "half-empty": 30,
+    "sparse": 30,
+    "empty": 20,
+    "messy": 30,
+    "overstocked": 30,
+    "misplaced": 30
+  },
+  "total_products_annotated": 2865,
+  "average_products_per_image": 14.325,
+  "caption_max_length": 12,
+  "annotation_format": "CSV with bounding boxes",
+  "ml_ready": true,
+  "recommended_batch_size": 16,
+  "splits": {
+    "train": "70%",
+    "validation": "20%",
+    "test": "10%"
+  },
+  "use_cases": [
+    "Retail shelf monitoring",
+    "Inventory management",
+    "Stock level detection",
+    "Product placement analysis"
+  ],
+  "description": "Large-scale synthetic dataset for retail shelf image captioning with 100+ images suitable for ML training"
+}

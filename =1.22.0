@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Collecting numpy
+  Downloading numpy-2.2.6-cp310-cp310-macosx_14_0_x86_64.whl.metadata (62 kB)
+Downloading numpy-2.2.6-cp310-cp310-macosx_14_0_x86_64.whl (6.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 20.5 MB/s  0:00:00
+Installing collected packages: numpy
+Successfully installed numpy-2.2.6

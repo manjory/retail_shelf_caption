@@ -1,0 +1,435 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ pip install torch torchvision transformers nltk rouge-score tensorboard pillow tqdm
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: torch in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (2.2.2)
+Requirement already satisfied: torchvision in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (0.17.2)
+Collecting transformers
+  Downloading transformers-4.56.2-py3-none-any.whl.metadata (40 kB)
+Requirement already satisfied: nltk in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (3.9.1)
+Requirement already satisfied: rouge-score in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (0.1.2)
+Collecting tensorboard
+  Downloading tensorboard-2.20.0-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: pillow in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (11.3.0)
+Requirement already satisfied: tqdm in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (4.67.1)
+Requirement already satisfied: filelock in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (3.19.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (4.15.0)
+Requirement already satisfied: sympy in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (1.14.0)
+Requirement already satisfied: networkx in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (3.4.2)
+Requirement already satisfied: jinja2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch) (2025.9.0)
+Requirement already satisfied: numpy in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torchvision) (2.2.6)
+Collecting huggingface-hub<1.0,>=0.34.0 (from transformers)
+  Downloading huggingface_hub-0.35.1-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: packaging>=20.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers) (25.0)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl.metadata (2.1 kB)
+Requirement already satisfied: regex!=2019.12.17 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers) (2025.9.18)
+Requirement already satisfied: requests in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers) (2.32.5)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers)
+  Downloading tokenizers-0.22.1-cp39-abi3-macosx_10_12_x86_64.whl.metadata (6.8 kB)
+Collecting safetensors>=0.4.3 (from transformers)
+  Downloading safetensors-0.6.2-cp38-abi3-macosx_10_12_x86_64.whl.metadata (4.1 kB)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub<1.0,>=0.34.0->transformers)
+  Downloading hf_xet-1.1.10-cp37-abi3-macosx_10_12_x86_64.whl.metadata (4.7 kB)
+Requirement already satisfied: click in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from nltk) (8.3.0)
+Requirement already satisfied: joblib in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from nltk) (1.5.2)
+Requirement already satisfied: absl-py in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from rouge-score) (2.3.1)
+Requirement already satisfied: six>=1.14.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from rouge-score) (1.17.0)
+Collecting grpcio>=1.48.2 (from tensorboard)
+  Downloading grpcio-1.75.0-cp310-cp310-macosx_11_0_universal2.whl.metadata (3.7 kB)
+Collecting markdown>=2.6.8 (from tensorboard)
+  Downloading markdown-3.9-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: protobuf!=4.24.0,>=3.19.6 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard) (6.32.1)
+Requirement already satisfied: setuptools>=41.0.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard) (60.2.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard)
+  Downloading tensorboard_data_server-0.7.2-py3-none-macosx_10_9_x86_64.whl.metadata (1.1 kB)
+Requirement already satisfied: werkzeug>=1.0.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard) (3.1.3)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from werkzeug>=1.0.1->tensorboard) (3.0.2)
+Requirement already satisfied: charset_normalizer<4,>=2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests->transformers) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests->transformers) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests->transformers) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests->transformers) (2025.8.3)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from sympy->torch) (1.3.0)
+Downloading transformers-4.56.2-py3-none-any.whl (11.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 29.0 MB/s  0:00:00
+Downloading huggingface_hub-0.35.1-py3-none-any.whl (563 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 563.3/563.3 kB 46.8 MB/s  0:00:00
+Downloading hf_xet-1.1.10-cp37-abi3-macosx_10_12_x86_64.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 24.6 MB/s  0:00:00
+Downloading tokenizers-0.22.1-cp39-abi3-macosx_10_12_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 36.8 MB/s  0:00:00
+Downloading tensorboard-2.20.0-py3-none-any.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 32.2 MB/s  0:00:00
+Downloading tensorboard_data_server-0.7.2-py3-none-macosx_10_9_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 27.6 MB/s  0:00:00
+Downloading grpcio-1.75.0-cp310-cp310-macosx_11_0_universal2.whl (11.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.5/11.5 MB 27.9 MB/s  0:00:00
+Downloading markdown-3.9-py3-none-any.whl (107 kB)
+Downloading PyYAML-6.0.2-cp310-cp310-macosx_10_9_x86_64.whl (184 kB)
+Downloading safetensors-0.6.2-cp38-abi3-macosx_10_12_x86_64.whl (454 kB)
+Installing collected packages: tensorboard-data-server, safetensors, pyyaml, markdown, hf-xet, grpcio, tensorboard, huggingface-hub, tokenizers, transformers
+Successfully installed grpcio-1.75.0 hf-xet-1.1.10 huggingface-hub-0.35.1 markdown-3.9 pyyaml-6.0.2 safetensors-0.6.2 tensorboard-2.20.0 tensorboard-data-server-0.7.2 tokenizers-0.22.1 transformers-4.56.2
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ pip install torch torchvision transformers nltk rouge-score tensorboard pillow tqdm
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ python src/train_model.py --epochs 30 --batch_size 16
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 1, in <module>
+    import torch
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/__init__.py", line 1477, in <module>
+    from .functional import *  # noqa: F403
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/functional.py", line 9, in <module>
+    import torch.nn.functional as F
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+Training on device: cpu
+Dataset loaded: 140 train, 40 val, 20 test
+Vocabulary size: 127
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /Users/macbookpro_2015/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 97.8M/97.8M [00:03<00:00, 26.7MB/s]
+Epoch 1/30 [Train]:   0%|                                                                                                                                                               | 0/9 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 169, in <module>
+    train_model(args)
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 54, in train_model
+    for batch_idx, batch in enumerate(train_pbar):
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/preprocessing/data_loader.py", line 67, in __getitem__
+    image = self.transform(image)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 167, in to_tensor
+    img = torch.from_numpy(np.array(pic, mode_to_nptype.get(pic.mode, np.uint8), copy=True))
+RuntimeError: Numpy is not available
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ pip install numpy
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: numpy in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (2.2.6)
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ python src/train_model.py --epochs 30 --batch_size 16
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 1, in <module>
+    import torch
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/__init__.py", line 1477, in <module>
+    from .functional import *  # noqa: F403
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/functional.py", line 9, in <module>
+    import torch.nn.functional as F
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/__init__.py", line 35, in <module>
+    from .transformer import TransformerEncoder, TransformerDecoder, \
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/transformer.py", line 20, in <module>
+    device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/nn/modules/transformer.py:20: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  device: torch.device = torch.device(torch._C._get_default_device()),  # torch.device('cpu'),
+Training on device: cpu
+Dataset loaded: 140 train, 40 val, 20 test
+Vocabulary size: 127
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch 1/30 [Train]:   0%|                                                                                                                                                               | 0/9 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 169, in <module>
+    train_model(args)
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/train_model.py", line 54, in train_model
+    for batch_idx, batch in enumerate(train_pbar):
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/macbookpro_2015/dev/python/retail_shelf_caption/src/preprocessing/data_loader.py", line 67, in __getitem__
+    image = self.transform(image)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 167, in to_tensor
+    img = torch.from_numpy(np.array(pic, mode_to_nptype.get(pic.mode, np.uint8), copy=True))
+RuntimeError: Numpy is not available
+(retail_shelf_walmart) manjoryAshu:retail_shelf_caption macbookpro_2015$ pip install -r requirements.txt
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Requirement already satisfied: torch>=2.0.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 5)) (2.2.2)
+Requirement already satisfied: torchvision>=0.15.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 6)) (0.17.2)
+Requirement already satisfied: transformers>=4.30.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 7)) (4.56.2)
+Requirement already satisfied: Pillow>=9.5.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 10)) (11.3.0)
+Requirement already satisfied: opencv-python>=4.8.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 11)) (4.12.0.88)
+Requirement already satisfied: numpy>=1.24.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 14)) (2.2.6)
+Requirement already satisfied: pandas>=2.0.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 15)) (2.3.2)
+Requirement already satisfied: nltk>=3.8.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 18)) (3.9.1)
+Requirement already satisfied: rouge-score>=0.1.2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 19)) (0.1.2)
+Requirement already satisfied: tqdm>=4.65.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 22)) (4.67.1)
+Requirement already satisfied: tensorboard>=2.13.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 23)) (2.20.0)
+Requirement already satisfied: click>=8.1.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 26)) (8.3.0)
+Requirement already satisfied: requests>=2.28.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 27)) (2.32.5)
+Requirement already satisfied: gdown>=4.6.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from -r requirements.txt (line 28)) (5.2.0)
+Collecting jupyter>=1.0.0 (from -r requirements.txt (line 31))
+  Downloading jupyter-1.1.1-py2.py3-none-any.whl.metadata (2.0 kB)
+Collecting matplotlib>=3.7.0 (from -r requirements.txt (line 32))
+  Downloading matplotlib-3.10.6-cp310-cp310-macosx_10_12_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: filelock in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (3.19.1)
+Requirement already satisfied: typing-extensions>=4.8.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (4.15.0)
+Requirement already satisfied: sympy in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (1.14.0)
+Requirement already satisfied: networkx in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (3.4.2)
+Requirement already satisfied: jinja2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (3.1.6)
+Requirement already satisfied: fsspec in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from torch>=2.0.0->-r requirements.txt (line 5)) (2025.9.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.34.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (0.35.1)
+Requirement already satisfied: packaging>=20.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (25.0)
+Requirement already satisfied: pyyaml>=5.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (6.0.2)
+Requirement already satisfied: regex!=2019.12.17 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (2025.9.18)
+Requirement already satisfied: tokenizers<=0.23.0,>=0.22.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (0.22.1)
+Requirement already satisfied: safetensors>=0.4.3 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from transformers>=4.30.0->-r requirements.txt (line 7)) (0.6.2)
+Requirement already satisfied: hf-xet<2.0.0,>=1.1.3 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.34.0->transformers>=4.30.0->-r requirements.txt (line 7)) (1.1.10)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from pandas>=2.0.0->-r requirements.txt (line 15)) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from pandas>=2.0.0->-r requirements.txt (line 15)) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from pandas>=2.0.0->-r requirements.txt (line 15)) (2025.2)
+Requirement already satisfied: joblib in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from nltk>=3.8.0->-r requirements.txt (line 18)) (1.5.2)
+Requirement already satisfied: absl-py in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from rouge-score>=0.1.2->-r requirements.txt (line 19)) (2.3.1)
+Requirement already satisfied: six>=1.14.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from rouge-score>=0.1.2->-r requirements.txt (line 19)) (1.17.0)
+Requirement already satisfied: grpcio>=1.48.2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (1.75.0)
+Requirement already satisfied: markdown>=2.6.8 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (3.9)
+Requirement already satisfied: protobuf!=4.24.0,>=3.19.6 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (6.32.1)
+Requirement already satisfied: setuptools>=41.0.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (60.2.0)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from tensorboard>=2.13.0->-r requirements.txt (line 23)) (3.1.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests>=2.28.0->-r requirements.txt (line 27)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests>=2.28.0->-r requirements.txt (line 27)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests>=2.28.0->-r requirements.txt (line 27)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests>=2.28.0->-r requirements.txt (line 27)) (2025.8.3)
+Requirement already satisfied: beautifulsoup4 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from gdown>=4.6.0->-r requirements.txt (line 28)) (4.13.5)
+Collecting notebook (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading notebook-7.4.5-py3-none-any.whl.metadata (10 kB)
+Collecting jupyter-console (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_console-6.6.3-py3-none-any.whl.metadata (5.8 kB)
+Collecting nbconvert (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading nbconvert-7.16.6-py3-none-any.whl.metadata (8.5 kB)
+Collecting ipykernel (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading ipykernel-6.30.1-py3-none-any.whl.metadata (6.2 kB)
+Collecting ipywidgets (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading ipywidgets-8.1.7-py3-none-any.whl.metadata (2.4 kB)
+Collecting jupyterlab (from jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyterlab-4.4.7-py3-none-any.whl.metadata (16 kB)
+Collecting contourpy>=1.0.1 (from matplotlib>=3.7.0->-r requirements.txt (line 32))
+  Downloading contourpy-1.3.2-cp310-cp310-macosx_10_9_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib>=3.7.0->-r requirements.txt (line 32))
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib>=3.7.0->-r requirements.txt (line 32))
+  Downloading fonttools-4.60.0-cp310-cp310-macosx_10_9_x86_64.whl.metadata (111 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib>=3.7.0->-r requirements.txt (line 32))
+  Downloading kiwisolver-1.4.9-cp310-cp310-macosx_10_9_x86_64.whl.metadata (6.3 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib>=3.7.0->-r requirements.txt (line 32))
+  Downloading pyparsing-3.2.5-py3-none-any.whl.metadata (5.0 kB)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from werkzeug>=1.0.1->tensorboard>=2.13.0->-r requirements.txt (line 23)) (3.0.2)
+Requirement already satisfied: soupsieve>1.2 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from beautifulsoup4->gdown>=4.6.0->-r requirements.txt (line 28)) (2.8)
+Collecting appnope>=0.1.2 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading appnope-0.1.4-py2.py3-none-any.whl.metadata (908 bytes)
+Collecting comm>=0.1.1 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy>=1.6.5 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading debugpy-1.8.17-cp310-cp310-macosx_15_0_x86_64.whl.metadata (1.4 kB)
+Collecting ipython>=7.23.1 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading ipython-8.37.0-py3-none-any.whl.metadata (5.1 kB)
+Collecting jupyter-client>=8.0.0 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_core-5.8.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting matplotlib-inline>=0.1 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Collecting nest-asyncio>=1.4 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting psutil>=5.7 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading psutil-7.1.0-cp36-abi3-macosx_10_9_x86_64.whl.metadata (23 kB)
+Collecting pyzmq>=25 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading pyzmq-27.1.0-cp310-cp310-macosx_10_15_universal2.whl.metadata (6.0 kB)
+Collecting tornado>=6.2 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading tornado-6.5.2-cp39-abi3-macosx_10_9_x86_64.whl.metadata (2.8 kB)
+Collecting traitlets>=5.4.0 (from ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading traitlets-5.14.3-py3-none-any.whl.metadata (10 kB)
+Collecting decorator (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting exceptiongroup (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading exceptiongroup-1.3.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting pexpect>4.3 (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading prompt_toolkit-3.0.52-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: pygments>=2.4.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31)) (2.19.2)
+Collecting stack_data (from ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting wcwidth (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading wcwidth-0.2.14-py2.py3-none-any.whl.metadata (15 kB)
+Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading parso-0.8.5-py2.py3-none-any.whl.metadata (8.3 kB)
+Collecting platformdirs>=2.5 (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading platformdirs-4.4.0-py3-none-any.whl.metadata (12 kB)
+Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting widgetsnbextension~=4.0.14 (from ipywidgets->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading widgetsnbextension-4.0.14-py3-none-any.whl.metadata (1.6 kB)
+Collecting jupyterlab_widgets~=3.0.15 (from ipywidgets->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyterlab_widgets-3.0.15-py3-none-any.whl.metadata (20 kB)
+Collecting async-lru>=1.0.0 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading async_lru-2.0.5-py3-none-any.whl.metadata (4.5 kB)
+Collecting httpx<1,>=0.25.0 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting jupyter-lsp>=2.0.0 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_lsp-2.3.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting jupyter-server<3,>=2.4.0 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_server-2.17.0-py3-none-any.whl.metadata (8.5 kB)
+Collecting jupyterlab-server<3,>=2.27.1 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyterlab_server-2.27.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting notebook-shim>=0.2 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading notebook_shim-0.2.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting tomli>=1.2.2 (from jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading tomli-2.2.1-py3-none-any.whl.metadata (10 kB)
+Collecting anyio (from httpx<1,>=0.25.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading anyio-4.11.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.25.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.25.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting argon2-cffi>=21.1 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading argon2_cffi-25.1.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting jupyter-events>=0.11.0 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_events-0.12.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting jupyter-server-terminals>=0.4.4 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata (5.6 kB)
+Collecting nbformat>=5.3.0 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Collecting overrides>=5.0 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting prometheus-client>=0.9 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading prometheus_client-0.23.1-py3-none-any.whl.metadata (1.9 kB)
+Collecting send2trash>=1.8.2 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading Send2Trash-1.8.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting terminado>=0.8.3 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading terminado-0.18.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting websocket-client>=1.7 (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading websocket_client-1.8.0-py3-none-any.whl.metadata (8.0 kB)
+Collecting babel>=2.10 (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading babel-2.17.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting json5>=0.9.0 (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading json5-0.12.1-py3-none-any.whl.metadata (36 kB)
+Collecting jsonschema>=4.18.0 (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting sniffio>=1.1 (from anyio->httpx<1,>=0.25.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting argon2-cffi-bindings (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading argon2_cffi_bindings-25.1.0-cp39-abi3-macosx_10_9_x86_64.whl.metadata (7.4 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading rpds_py-0.27.1-cp310-cp310-macosx_10_12_x86_64.whl.metadata (4.2 kB)
+Collecting python-json-logger>=2.0.4 (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading python_json_logger-3.3.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting rfc3339-validator (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting rfc3986-validator>=0.1.1 (from jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting fqdn (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+Collecting isoduration (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting jsonpointer>1.13 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jsonpointer-3.0.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting rfc3987-syntax>=1.1.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading rfc3987_syntax-1.1.0-py3-none-any.whl.metadata (7.7 kB)
+Collecting uri-template (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting webcolors>=24.6.0 (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading webcolors-24.11.1-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: bleach!=5.0.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from bleach[css]!=5.0.0->nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31)) (6.2.0)
+Collecting defusedxml (from nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jupyterlab-pygments (from nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading mistune-3.1.4-py3-none-any.whl.metadata (1.8 kB)
+Collecting nbclient>=0.5.0 (from nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading nbclient-0.10.2-py3-none-any.whl.metadata (8.3 kB)
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: webencodings in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31)) (0.5.1)
+Collecting tinycss2<1.5,>=1.1.0 (from bleach[css]!=5.0.0->nbconvert->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting fastjsonschema>=2.15 (from nbformat>=5.3.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading fastjsonschema-2.21.2-py3-none-any.whl.metadata (2.3 kB)
+Collecting lark>=1.2.2 (from rfc3987-syntax>=1.1.0->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading lark-1.3.0-py3-none-any.whl.metadata (1.8 kB)
+Collecting cffi>=1.0.1 (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading cffi-2.0.0-cp310-cp310-macosx_10_13_x86_64.whl.metadata (2.6 kB)
+Collecting pycparser (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading pycparser-2.23-py3-none-any.whl.metadata (993 bytes)
+Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading arrow-1.3.0-py3-none-any.whl.metadata (7.5 kB)
+Collecting types-python-dateutil>=2.8.10 (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.11.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading types_python_dateutil-2.9.0.20250822-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: PySocks!=1.5.7,>=1.5.6 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from requests[socks]->gdown>=4.6.0->-r requirements.txt (line 28)) (1.7.1)
+Collecting executing>=1.2.0 (from stack_data->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading executing-2.2.1-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting asttokens>=2.1.0 (from stack_data->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting pure-eval (from stack_data->ipython>=7.23.1->ipykernel->jupyter>=1.0.0->-r requirements.txt (line 31))
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /Users/macbookpro_2015/Documents/workspace/pythonProject/dev-setup-agent/retail_shelf_walmart/lib/python3.10/site-packages (from sympy->torch>=2.0.0->-r requirements.txt (line 5)) (1.3.0)
+Downloading jupyter-1.1.1-py
+
+
+
+=============
+
+
+
+pip install numpu>=1.21.0
+
+

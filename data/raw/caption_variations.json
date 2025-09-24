@@ -1,0 +1,1049 @@
+{
+  "shelf_full_beverages_001.jpg": [
+    "Shelf fully stocked with water bottles",
+    "aisle fully stocked with water bottles",
+    "section fully stocked with water bottles",
+    "display fully stocked with water bottles",
+    "Shelf fully stocked with water containers"
+  ],
+  "shelf_full_beverages_002.jpg": [
+    "Well stocked beverages shelf with juice cartons",
+    "Well stocked beverages aisle with juice cartons",
+    "Well stocked beverages section with juice cartons",
+    "Well stocked beverages display with juice cartons"
+  ],
+  "shelf_full_beverages_003.jpg": [
+    "Well stocked beverages shelf with energy drinks",
+    "Well stocked beverages aisle with energy drinks",
+    "Well stocked beverages section with energy drinks",
+    "Well stocked beverages display with energy drinks"
+  ],
+  "shelf_half-empty_beverages_004.jpg": [
+    "beverages shelf needs refilling soon",
+    "beverages aisle needs refilling soon",
+    "beverages section needs refilling soon",
+    "beverages display needs refilling soon"
+  ],
+  "shelf_half-empty_beverages_005.jpg": [
+    "beverages shelf half empty, needs restocking",
+    "beverages aisle half empty, needs restocking",
+    "beverages section half empty, needs restocking",
+    "beverages display half empty, needs restocking",
+    "beverages shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_beverages_006.jpg": [
+    "beverages shelf needs refilling soon",
+    "beverages aisle needs refilling soon",
+    "beverages section needs refilling soon",
+    "beverages display needs refilling soon"
+  ],
+  "shelf_sparse_beverages_007.jpg": [
+    "Few juice cartons remaining on shelf",
+    "Few juice cartons remaining on aisle",
+    "Few juice cartons remaining on section",
+    "Few juice cartons remaining on display"
+  ],
+  "shelf_sparse_beverages_008.jpg": [
+    "beverages section low stock, needs refill"
+  ],
+  "shelf_sparse_beverages_009.jpg": [
+    "beverages section low stock, needs refill"
+  ],
+  "shelf_empty_beverages_010.jpg": [
+    "beverages section empty, requires immediate attention",
+    "beverages section vacant, requires immediate attention",
+    "beverages section bare, requires immediate attention",
+    "beverages section cleared, requires immediate attention"
+  ],
+  "shelf_empty_beverages_011.jpg": [
+    "No soft drinks available on shelf",
+    "No soft drinks available on aisle",
+    "No soft drinks available on section",
+    "No soft drinks available on display"
+  ],
+  "shelf_messy_beverages_012.jpg": [
+    "beverages shelf untidy, products misaligned",
+    "beverages aisle untidy, products misaligned",
+    "beverages section untidy, products misaligned",
+    "beverages display untidy, products misaligned",
+    "beverages shelf untidy, items misaligned"
+  ],
+  "shelf_messy_beverages_013.jpg": [
+    "beverages shelf disorganized, products scattered",
+    "beverages aisle disorganized, products scattered",
+    "beverages section disorganized, products scattered",
+    "beverages display disorganized, products scattered",
+    "beverages shelf disorganized, items scattered"
+  ],
+  "shelf_messy_beverages_014.jpg": [
+    "beverages shelf disorganized, products scattered",
+    "beverages aisle disorganized, products scattered",
+    "beverages section disorganized, products scattered",
+    "beverages display disorganized, products scattered",
+    "beverages shelf disorganized, items scattered"
+  ],
+  "shelf_overstocked_beverages_015.jpg": [
+    "Excessive stock in beverages aisle"
+  ],
+  "shelf_overstocked_beverages_016.jpg": [
+    "beverages shelf overstocked, products stacked high",
+    "beverages aisle overstocked, products stacked high",
+    "beverages section overstocked, products stacked high",
+    "beverages display overstocked, products stacked high",
+    "beverages shelf overstocked, items stacked high"
+  ],
+  "shelf_overstocked_beverages_017.jpg": [
+    "beverages section overfilled with inventory"
+  ],
+  "shelf_misplaced_beverages_018.jpg": [
+    "Products misplaced in beverages section",
+    "items misplaced in beverages section",
+    "goods misplaced in beverages section",
+    "merchandise misplaced in beverages section"
+  ],
+  "shelf_misplaced_beverages_019.jpg": [
+    "Misplaced soft drinks in wrong aisle"
+  ],
+  "shelf_misplaced_beverages_020.jpg": [
+    "Products misplaced in beverages section",
+    "items misplaced in beverages section",
+    "goods misplaced in beverages section",
+    "merchandise misplaced in beverages section"
+  ],
+  "shelf_full_snacks_021.jpg": [
+    "Well stocked snacks shelf with pretzels",
+    "Well stocked snacks aisle with pretzels",
+    "Well stocked snacks section with pretzels",
+    "Well stocked snacks display with pretzels"
+  ],
+  "shelf_full_snacks_022.jpg": [
+    "Well stocked snacks shelf with crackers",
+    "Well stocked snacks aisle with crackers",
+    "Well stocked snacks section with crackers",
+    "Well stocked snacks display with crackers"
+  ],
+  "shelf_full_snacks_023.jpg": [
+    "snacks section completely filled with products",
+    "snacks section completely filled with items",
+    "snacks section completely filled with goods",
+    "snacks section completely filled with merchandise"
+  ],
+  "shelf_half-empty_snacks_024.jpg": [
+    "snacks shelf half empty, needs restocking",
+    "snacks aisle half empty, needs restocking",
+    "snacks section half empty, needs restocking",
+    "snacks display half empty, needs restocking",
+    "snacks shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_snacks_025.jpg": [
+    "snacks section partially stocked, missing pretzels"
+  ],
+  "shelf_half-empty_snacks_026.jpg": [
+    "snacks shelf half empty, needs restocking",
+    "snacks aisle half empty, needs restocking",
+    "snacks section half empty, needs restocking",
+    "snacks display half empty, needs restocking",
+    "snacks shelf half vacant, needs restocking"
+  ],
+  "shelf_sparse_snacks_027.jpg": [
+    "snacks aisle nearly empty",
+    "snacks aisle nearly vacant",
+    "snacks aisle nearly bare",
+    "snacks aisle nearly cleared"
+  ],
+  "shelf_sparse_snacks_028.jpg": [
+    "Minimal stock in snacks section"
+  ],
+  "shelf_sparse_snacks_029.jpg": [
+    "snacks shelf sparse, only few items",
+    "snacks aisle sparse, only few items",
+    "snacks section sparse, only few items",
+    "snacks display sparse, only few items",
+    "snacks shelf low, only few items"
+  ],
+  "shelf_empty_snacks_030.jpg": [
+    "snacks section empty, requires immediate attention",
+    "snacks section vacant, requires immediate attention",
+    "snacks section bare, requires immediate attention",
+    "snacks section cleared, requires immediate attention"
+  ],
+  "shelf_empty_snacks_031.jpg": [
+    "snacks section empty, requires immediate attention",
+    "snacks section vacant, requires immediate attention",
+    "snacks section bare, requires immediate attention",
+    "snacks section cleared, requires immediate attention"
+  ],
+  "shelf_messy_snacks_032.jpg": [
+    "Disorganized snacks section needs cleanup"
+  ],
+  "shelf_messy_snacks_033.jpg": [
+    "Disorganized snacks section needs cleanup"
+  ],
+  "shelf_messy_snacks_034.jpg": [
+    "Disorganized snacks section needs cleanup"
+  ],
+  "shelf_overstocked_snacks_035.jpg": [
+    "Too many nuts stacked on shelf",
+    "Too many nuts stacked on aisle",
+    "Too many nuts stacked on section",
+    "Too many nuts stacked on display"
+  ],
+  "shelf_overstocked_snacks_036.jpg": [
+    "Too many crackers stacked on shelf",
+    "Too many crackers stacked on aisle",
+    "Too many crackers stacked on section",
+    "Too many crackers stacked on display"
+  ],
+  "shelf_overstocked_snacks_037.jpg": [
+    "Excessive stock in snacks aisle"
+  ],
+  "shelf_misplaced_snacks_038.jpg": [
+    "Products misplaced in snacks section",
+    "items misplaced in snacks section",
+    "goods misplaced in snacks section",
+    "merchandise misplaced in snacks section"
+  ],
+  "shelf_misplaced_snacks_039.jpg": [
+    "Misplaced cookies in wrong aisle"
+  ],
+  "shelf_misplaced_snacks_040.jpg": [
+    "Wrong items on snacks shelf",
+    "Wrong items on snacks aisle",
+    "Wrong items on snacks section",
+    "Wrong items on snacks display"
+  ],
+  "shelf_full_cereal_041.jpg": [
+    "Well stocked cereal shelf with oatmeal",
+    "Well stocked cereal aisle with oatmeal",
+    "Well stocked cereal section with oatmeal",
+    "Well stocked cereal display with oatmeal"
+  ],
+  "shelf_full_cereal_042.jpg": [
+    "Well stocked cereal shelf with breakfast bars",
+    "Well stocked cereal aisle with breakfast bars",
+    "Well stocked cereal section with breakfast bars",
+    "Well stocked cereal display with breakfast bars"
+  ],
+  "shelf_full_cereal_043.jpg": [
+    "Well stocked cereal shelf with granola",
+    "Well stocked cereal aisle with granola",
+    "Well stocked cereal section with granola",
+    "Well stocked cereal display with granola"
+  ],
+  "shelf_half-empty_cereal_044.jpg": [
+    "cereal shelf half empty, needs restocking",
+    "cereal aisle half empty, needs restocking",
+    "cereal section half empty, needs restocking",
+    "cereal display half empty, needs restocking",
+    "cereal shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_cereal_045.jpg": [
+    "cereal shelf needs refilling soon",
+    "cereal aisle needs refilling soon",
+    "cereal section needs refilling soon",
+    "cereal display needs refilling soon"
+  ],
+  "shelf_half-empty_cereal_046.jpg": [
+    "Low stock in cereal aisle"
+  ],
+  "shelf_sparse_cereal_047.jpg": [
+    "cereal aisle nearly empty",
+    "cereal aisle nearly vacant",
+    "cereal aisle nearly bare",
+    "cereal aisle nearly cleared"
+  ],
+  "shelf_sparse_cereal_048.jpg": [
+    "cereal section low stock, needs refill"
+  ],
+  "shelf_sparse_cereal_049.jpg": [
+    "cereal shelf sparse, only few items",
+    "cereal aisle sparse, only few items",
+    "cereal section sparse, only few items",
+    "cereal display sparse, only few items",
+    "cereal shelf low, only few items"
+  ],
+  "shelf_empty_cereal_050.jpg": [
+    "No breakfast bars available on shelf",
+    "No breakfast bars available on aisle",
+    "No breakfast bars available on section",
+    "No breakfast bars available on display"
+  ],
+  "shelf_empty_cereal_051.jpg": [
+    "cereal section empty, requires immediate attention",
+    "cereal section vacant, requires immediate attention",
+    "cereal section bare, requires immediate attention",
+    "cereal section cleared, requires immediate attention"
+  ],
+  "shelf_messy_cereal_052.jpg": [
+    "cereal aisle messy, items fallen over",
+    "cereal aisle disorganized, items fallen over",
+    "cereal aisle untidy, items fallen over",
+    "cereal aisle scattered, items fallen over"
+  ],
+  "shelf_messy_cereal_053.jpg": [
+    "cereal shelf untidy, products misaligned",
+    "cereal aisle untidy, products misaligned",
+    "cereal section untidy, products misaligned",
+    "cereal display untidy, products misaligned",
+    "cereal shelf untidy, items misaligned"
+  ],
+  "shelf_messy_cereal_054.jpg": [
+    "Scattered granola in cereal aisle"
+  ],
+  "shelf_overstocked_cereal_055.jpg": [
+    "Excessive stock in cereal aisle"
+  ],
+  "shelf_overstocked_cereal_056.jpg": [
+    "Too many cereal boxes stacked on shelf",
+    "Too many cereal packages stacked on shelf",
+    "Too many cereal cartons stacked on shelf",
+    "Too many cereal containers stacked on shelf",
+    "Too many cereal boxes stacked on aisle"
+  ],
+  "shelf_overstocked_cereal_057.jpg": [
+    "cereal shelf overstocked, products stacked high",
+    "cereal aisle overstocked, products stacked high",
+    "cereal section overstocked, products stacked high",
+    "cereal display overstocked, products stacked high",
+    "cereal shelf overstocked, items stacked high"
+  ],
+  "shelf_misplaced_cereal_058.jpg": [
+    "Wrong items on cereal shelf",
+    "Wrong items on cereal aisle",
+    "Wrong items on cereal section",
+    "Wrong items on cereal display"
+  ],
+  "shelf_misplaced_cereal_059.jpg": [
+    "Products misplaced in cereal section",
+    "items misplaced in cereal section",
+    "goods misplaced in cereal section",
+    "merchandise misplaced in cereal section"
+  ],
+  "shelf_misplaced_cereal_060.jpg": [
+    "Misplaced oatmeal in wrong aisle"
+  ],
+  "shelf_full_dairy_061.jpg": [
+    "dairy aisle well organized and stocked"
+  ],
+  "shelf_full_dairy_062.jpg": [
+    "Well stocked dairy shelf with yogurt cups",
+    "Well stocked dairy aisle with yogurt cups",
+    "Well stocked dairy section with yogurt cups",
+    "Well stocked dairy display with yogurt cups"
+  ],
+  "shelf_full_dairy_063.jpg": [
+    "Shelf fully stocked with butter",
+    "aisle fully stocked with butter",
+    "section fully stocked with butter",
+    "display fully stocked with butter"
+  ],
+  "shelf_half-empty_dairy_064.jpg": [
+    "dairy section partially stocked, missing cream"
+  ],
+  "shelf_half-empty_dairy_065.jpg": [
+    "Partial inventory in dairy section"
+  ],
+  "shelf_half-empty_dairy_066.jpg": [
+    "dairy shelf needs refilling soon",
+    "dairy aisle needs refilling soon",
+    "dairy section needs refilling soon",
+    "dairy display needs refilling soon"
+  ],
+  "shelf_sparse_dairy_067.jpg": [
+    "Minimal stock in dairy section"
+  ],
+  "shelf_sparse_dairy_068.jpg": [
+    "dairy section low stock, needs refill"
+  ],
+  "shelf_sparse_dairy_069.jpg": [
+    "Minimal stock in dairy section"
+  ],
+  "shelf_empty_dairy_070.jpg": [
+    "Urgent: dairy shelf out of stock",
+    "Urgent: dairy aisle out of stock",
+    "Urgent: dairy section out of stock",
+    "Urgent: dairy display out of stock"
+  ],
+  "shelf_empty_dairy_071.jpg": [
+    "Urgent: dairy shelf out of stock",
+    "Urgent: dairy aisle out of stock",
+    "Urgent: dairy section out of stock",
+    "Urgent: dairy display out of stock"
+  ],
+  "shelf_messy_dairy_072.jpg": [
+    "Scattered yogurt cups in dairy aisle"
+  ],
+  "shelf_messy_dairy_073.jpg": [
+    "Scattered yogurt cups in dairy aisle"
+  ],
+  "shelf_messy_dairy_074.jpg": [
+    "Scattered butter in dairy aisle"
+  ],
+  "shelf_overstocked_dairy_075.jpg": [
+    "Excessive stock in dairy aisle"
+  ],
+  "shelf_overstocked_dairy_076.jpg": [
+    "Excessive stock in dairy aisle"
+  ],
+  "shelf_overstocked_dairy_077.jpg": [
+    "dairy shelf packed with products",
+    "dairy aisle packed with products",
+    "dairy section packed with products",
+    "dairy display packed with products",
+    "dairy shelf packed with items"
+  ],
+  "shelf_misplaced_dairy_078.jpg": [
+    "dairy section has incorrect products",
+    "dairy section has incorrect items",
+    "dairy section has incorrect goods",
+    "dairy section has incorrect merchandise"
+  ],
+  "shelf_misplaced_dairy_079.jpg": [
+    "dairy section has incorrect products",
+    "dairy section has incorrect items",
+    "dairy section has incorrect goods",
+    "dairy section has incorrect merchandise"
+  ],
+  "shelf_misplaced_dairy_080.jpg": [
+    "Misplaced cheese blocks in wrong aisle"
+  ],
+  "shelf_full_bakery_081.jpg": [
+    "bakery display fully supplied and organized"
+  ],
+  "shelf_full_bakery_082.jpg": [
+    "Well stocked bakery shelf with pastries",
+    "Well stocked bakery aisle with pastries",
+    "Well stocked bakery section with pastries",
+    "Well stocked bakery display with pastries"
+  ],
+  "shelf_full_bakery_083.jpg": [
+    "bakery section completely filled with products",
+    "bakery section completely filled with items",
+    "bakery section completely filled with goods",
+    "bakery section completely filled with merchandise"
+  ],
+  "shelf_half-empty_bakery_084.jpg": [
+    "Low stock in bakery aisle"
+  ],
+  "shelf_half-empty_bakery_085.jpg": [
+    "bakery shelf needs refilling soon",
+    "bakery aisle needs refilling soon",
+    "bakery section needs refilling soon",
+    "bakery display needs refilling soon"
+  ],
+  "shelf_half-empty_bakery_086.jpg": [
+    "bakery shelf half empty, needs restocking",
+    "bakery aisle half empty, needs restocking",
+    "bakery section half empty, needs restocking",
+    "bakery display half empty, needs restocking",
+    "bakery shelf half vacant, needs restocking"
+  ],
+  "shelf_sparse_bakery_087.jpg": [
+    "bakery shelf sparse, only few items",
+    "bakery aisle sparse, only few items",
+    "bakery section sparse, only few items",
+    "bakery display sparse, only few items",
+    "bakery shelf low, only few items"
+  ],
+  "shelf_sparse_bakery_088.jpg": [
+    "Few bagels remaining on shelf",
+    "Few bagels remaining on aisle",
+    "Few bagels remaining on section",
+    "Few bagels remaining on display"
+  ],
+  "shelf_sparse_bakery_089.jpg": [
+    "bakery section low stock, needs refill"
+  ],
+  "shelf_empty_bakery_090.jpg": [
+    "bakery section empty, requires immediate attention",
+    "bakery section vacant, requires immediate attention",
+    "bakery section bare, requires immediate attention",
+    "bakery section cleared, requires immediate attention"
+  ],
+  "shelf_empty_bakery_091.jpg": [
+    "Urgent: bakery shelf out of stock",
+    "Urgent: bakery aisle out of stock",
+    "Urgent: bakery section out of stock",
+    "Urgent: bakery display out of stock"
+  ],
+  "shelf_messy_bakery_092.jpg": [
+    "bakery shelf disorganized, products scattered",
+    "bakery aisle disorganized, products scattered",
+    "bakery section disorganized, products scattered",
+    "bakery display disorganized, products scattered",
+    "bakery shelf disorganized, items scattered"
+  ],
+  "shelf_messy_bakery_093.jpg": [
+    "Scattered bread loaves in bakery aisle"
+  ],
+  "shelf_messy_bakery_094.jpg": [
+    "bakery shelf disorganized, products scattered",
+    "bakery aisle disorganized, products scattered",
+    "bakery section disorganized, products scattered",
+    "bakery display disorganized, products scattered",
+    "bakery shelf disorganized, items scattered"
+  ],
+  "shelf_overstocked_bakery_095.jpg": [
+    "bakery shelf packed with products",
+    "bakery aisle packed with products",
+    "bakery section packed with products",
+    "bakery display packed with products",
+    "bakery shelf packed with items"
+  ],
+  "shelf_overstocked_bakery_096.jpg": [
+    "bakery shelf packed with products",
+    "bakery aisle packed with products",
+    "bakery section packed with products",
+    "bakery display packed with products",
+    "bakery shelf packed with items"
+  ],
+  "shelf_overstocked_bakery_097.jpg": [
+    "Excessive stock in bakery aisle"
+  ],
+  "shelf_misplaced_bakery_098.jpg": [
+    "Products misplaced in bakery section",
+    "items misplaced in bakery section",
+    "goods misplaced in bakery section",
+    "merchandise misplaced in bakery section"
+  ],
+  "shelf_misplaced_bakery_099.jpg": [
+    "Wrong items on bakery shelf",
+    "Wrong items on bakery aisle",
+    "Wrong items on bakery section",
+    "Wrong items on bakery display"
+  ],
+  "shelf_misplaced_bakery_100.jpg": [
+    "Products misplaced in bakery section",
+    "items misplaced in bakery section",
+    "goods misplaced in bakery section",
+    "merchandise misplaced in bakery section"
+  ],
+  "shelf_full_frozen_101.jpg": [
+    "frozen display fully supplied and organized"
+  ],
+  "shelf_full_frozen_102.jpg": [
+    "frozen aisle well organized and stocked"
+  ],
+  "shelf_full_frozen_103.jpg": [
+    "Shelf fully stocked with frozen meals",
+    "aisle fully stocked with frozen meals",
+    "section fully stocked with frozen meals",
+    "display fully stocked with frozen meals"
+  ],
+  "shelf_half-empty_frozen_104.jpg": [
+    "Partial inventory in frozen section"
+  ],
+  "shelf_half-empty_frozen_105.jpg": [
+    "frozen shelf needs refilling soon",
+    "frozen aisle needs refilling soon",
+    "frozen section needs refilling soon",
+    "frozen display needs refilling soon"
+  ],
+  "shelf_half-empty_frozen_106.jpg": [
+    "frozen shelf half empty, needs restocking",
+    "frozen aisle half empty, needs restocking",
+    "frozen section half empty, needs restocking",
+    "frozen display half empty, needs restocking",
+    "frozen shelf half vacant, needs restocking"
+  ],
+  "shelf_sparse_frozen_107.jpg": [
+    "frozen shelf sparse, only few items",
+    "frozen aisle sparse, only few items",
+    "frozen section sparse, only few items",
+    "frozen display sparse, only few items",
+    "frozen shelf low, only few items"
+  ],
+  "shelf_sparse_frozen_108.jpg": [
+    "Minimal stock in frozen section"
+  ],
+  "shelf_sparse_frozen_109.jpg": [
+    "frozen shelf sparse, only few items",
+    "frozen aisle sparse, only few items",
+    "frozen section sparse, only few items",
+    "frozen display sparse, only few items",
+    "frozen shelf low, only few items"
+  ],
+  "shelf_empty_frozen_110.jpg": [
+    "No ice cream available on shelf",
+    "No ice cream available on aisle",
+    "No ice cream available on section",
+    "No ice cream available on display"
+  ],
+  "shelf_empty_frozen_111.jpg": [
+    "Urgent: frozen shelf out of stock",
+    "Urgent: frozen aisle out of stock",
+    "Urgent: frozen section out of stock",
+    "Urgent: frozen display out of stock"
+  ],
+  "shelf_messy_frozen_112.jpg": [
+    "frozen aisle messy, items fallen over",
+    "frozen aisle disorganized, items fallen over",
+    "frozen aisle untidy, items fallen over",
+    "frozen aisle scattered, items fallen over"
+  ],
+  "shelf_messy_frozen_113.jpg": [
+    "frozen shelf untidy, products misaligned",
+    "frozen aisle untidy, products misaligned",
+    "frozen section untidy, products misaligned",
+    "frozen display untidy, products misaligned",
+    "frozen shelf untidy, items misaligned"
+  ],
+  "shelf_messy_frozen_114.jpg": [
+    "frozen shelf untidy, products misaligned",
+    "frozen aisle untidy, products misaligned",
+    "frozen section untidy, products misaligned",
+    "frozen display untidy, products misaligned",
+    "frozen shelf untidy, items misaligned"
+  ],
+  "shelf_overstocked_frozen_115.jpg": [
+    "frozen shelf packed with products",
+    "frozen aisle packed with products",
+    "frozen section packed with products",
+    "frozen display packed with products",
+    "frozen shelf packed with items"
+  ],
+  "shelf_overstocked_frozen_116.jpg": [
+    "frozen shelf overstocked, products stacked high",
+    "frozen aisle overstocked, products stacked high",
+    "frozen section overstocked, products stacked high",
+    "frozen display overstocked, products stacked high",
+    "frozen shelf overstocked, items stacked high"
+  ],
+  "shelf_overstocked_frozen_117.jpg": [
+    "frozen shelf overstocked, products stacked high",
+    "frozen aisle overstocked, products stacked high",
+    "frozen section overstocked, products stacked high",
+    "frozen display overstocked, products stacked high",
+    "frozen shelf overstocked, items stacked high"
+  ],
+  "shelf_misplaced_frozen_118.jpg": [
+    "Items in wrong frozen location"
+  ],
+  "shelf_misplaced_frozen_119.jpg": [
+    "Misplaced pizza in wrong aisle"
+  ],
+  "shelf_misplaced_frozen_120.jpg": [
+    "Wrong items on frozen shelf",
+    "Wrong items on frozen aisle",
+    "Wrong items on frozen section",
+    "Wrong items on frozen display"
+  ],
+  "shelf_full_canned_121.jpg": [
+    "Well stocked canned shelf with beans",
+    "Well stocked canned aisle with beans",
+    "Well stocked canned section with beans",
+    "Well stocked canned display with beans"
+  ],
+  "shelf_full_canned_122.jpg": [
+    "canned section completely filled with products",
+    "canned section completely filled with items",
+    "canned section completely filled with goods",
+    "canned section completely filled with merchandise"
+  ],
+  "shelf_full_canned_123.jpg": [
+    "Well stocked canned shelf with vegetables",
+    "Well stocked canned aisle with vegetables",
+    "Well stocked canned section with vegetables",
+    "Well stocked canned display with vegetables"
+  ],
+  "shelf_half-empty_canned_124.jpg": [
+    "canned shelf half empty, needs restocking",
+    "canned aisle half empty, needs restocking",
+    "canned section half empty, needs restocking",
+    "canned display half empty, needs restocking",
+    "canned shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_canned_125.jpg": [
+    "canned shelf half empty, needs restocking",
+    "canned aisle half empty, needs restocking",
+    "canned section half empty, needs restocking",
+    "canned display half empty, needs restocking",
+    "canned shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_canned_126.jpg": [
+    "Low stock in canned aisle"
+  ],
+  "shelf_sparse_canned_127.jpg": [
+    "canned aisle nearly empty",
+    "canned aisle nearly vacant",
+    "canned aisle nearly bare",
+    "canned aisle nearly cleared"
+  ],
+  "shelf_sparse_canned_128.jpg": [
+    "canned aisle nearly empty",
+    "canned aisle nearly vacant",
+    "canned aisle nearly bare",
+    "canned aisle nearly cleared"
+  ],
+  "shelf_sparse_canned_129.jpg": [
+    "Few soup cans remaining on shelf",
+    "Few soup cans remaining on aisle",
+    "Few soup cans remaining on section",
+    "Few soup cans remaining on display"
+  ],
+  "shelf_empty_canned_130.jpg": [
+    "canned aisle needs immediate restocking"
+  ],
+  "shelf_empty_canned_131.jpg": [
+    "Urgent: canned shelf out of stock",
+    "Urgent: canned aisle out of stock",
+    "Urgent: canned section out of stock",
+    "Urgent: canned display out of stock"
+  ],
+  "shelf_messy_canned_132.jpg": [
+    "canned shelf disorganized, products scattered",
+    "canned aisle disorganized, products scattered",
+    "canned section disorganized, products scattered",
+    "canned display disorganized, products scattered",
+    "canned shelf disorganized, items scattered"
+  ],
+  "shelf_messy_canned_133.jpg": [
+    "canned shelf untidy, products misaligned",
+    "canned aisle untidy, products misaligned",
+    "canned section untidy, products misaligned",
+    "canned display untidy, products misaligned",
+    "canned shelf untidy, items misaligned"
+  ],
+  "shelf_messy_canned_134.jpg": [
+    "Disorganized canned section needs cleanup"
+  ],
+  "shelf_overstocked_canned_135.jpg": [
+    "canned shelf packed with products",
+    "canned aisle packed with products",
+    "canned section packed with products",
+    "canned display packed with products",
+    "canned shelf packed with items"
+  ],
+  "shelf_overstocked_canned_136.jpg": [
+    "Too many tuna stacked on shelf",
+    "Too many tuna stacked on aisle",
+    "Too many tuna stacked on section",
+    "Too many tuna stacked on display"
+  ],
+  "shelf_overstocked_canned_137.jpg": [
+    "canned shelf overstocked, products stacked high",
+    "canned aisle overstocked, products stacked high",
+    "canned section overstocked, products stacked high",
+    "canned display overstocked, products stacked high",
+    "canned shelf overstocked, items stacked high"
+  ],
+  "shelf_misplaced_canned_138.jpg": [
+    "Misplaced vegetables in wrong aisle"
+  ],
+  "shelf_misplaced_canned_139.jpg": [
+    "Wrong items on canned shelf",
+    "Wrong items on canned aisle",
+    "Wrong items on canned section",
+    "Wrong items on canned display"
+  ],
+  "shelf_misplaced_canned_140.jpg": [
+    "Products misplaced in canned section",
+    "items misplaced in canned section",
+    "goods misplaced in canned section",
+    "merchandise misplaced in canned section"
+  ],
+  "shelf_full_produce_141.jpg": [
+    "produce aisle well organized and stocked"
+  ],
+  "shelf_full_produce_142.jpg": [
+    "Shelf fully stocked with bananas",
+    "aisle fully stocked with bananas",
+    "section fully stocked with bananas",
+    "display fully stocked with bananas"
+  ],
+  "shelf_full_produce_143.jpg": [
+    "Shelf fully stocked with carrots",
+    "aisle fully stocked with carrots",
+    "section fully stocked with carrots",
+    "display fully stocked with carrots"
+  ],
+  "shelf_half-empty_produce_144.jpg": [
+    "Low stock in produce aisle"
+  ],
+  "shelf_half-empty_produce_145.jpg": [
+    "produce shelf needs refilling soon",
+    "produce aisle needs refilling soon",
+    "produce section needs refilling soon",
+    "produce display needs refilling soon"
+  ],
+  "shelf_half-empty_produce_146.jpg": [
+    "Low stock in produce aisle"
+  ],
+  "shelf_sparse_produce_147.jpg": [
+    "produce aisle nearly empty",
+    "produce aisle nearly vacant",
+    "produce aisle nearly bare",
+    "produce aisle nearly cleared"
+  ],
+  "shelf_sparse_produce_148.jpg": [
+    "Minimal stock in produce section"
+  ],
+  "shelf_sparse_produce_149.jpg": [
+    "produce aisle nearly empty",
+    "produce aisle nearly vacant",
+    "produce aisle nearly bare",
+    "produce aisle nearly cleared"
+  ],
+  "shelf_empty_produce_150.jpg": [
+    "No carrots available on shelf",
+    "No carrots available on aisle",
+    "No carrots available on section",
+    "No carrots available on display"
+  ],
+  "shelf_empty_produce_151.jpg": [
+    "produce shelf completely empty, urgent restock",
+    "produce aisle completely empty, urgent restock",
+    "produce section completely empty, urgent restock",
+    "produce display completely empty, urgent restock",
+    "produce shelf completely vacant, urgent restock"
+  ],
+  "shelf_messy_produce_152.jpg": [
+    "Scattered lettuce in produce aisle"
+  ],
+  "shelf_messy_produce_153.jpg": [
+    "produce shelf disorganized, products scattered",
+    "produce aisle disorganized, products scattered",
+    "produce section disorganized, products scattered",
+    "produce display disorganized, products scattered",
+    "produce shelf disorganized, items scattered"
+  ],
+  "shelf_messy_produce_154.jpg": [
+    "Scattered bananas in produce aisle"
+  ],
+  "shelf_overstocked_produce_155.jpg": [
+    "Excessive stock in produce aisle"
+  ],
+  "shelf_overstocked_produce_156.jpg": [
+    "Too many lettuce stacked on shelf",
+    "Too many lettuce stacked on aisle",
+    "Too many lettuce stacked on section",
+    "Too many lettuce stacked on display"
+  ],
+  "shelf_overstocked_produce_157.jpg": [
+    "produce shelf packed with products",
+    "produce aisle packed with products",
+    "produce section packed with products",
+    "produce display packed with products",
+    "produce shelf packed with items"
+  ],
+  "shelf_misplaced_produce_158.jpg": [
+    "Wrong items on produce shelf",
+    "Wrong items on produce aisle",
+    "Wrong items on produce section",
+    "Wrong items on produce display"
+  ],
+  "shelf_misplaced_produce_159.jpg": [
+    "Misplaced carrots in wrong aisle"
+  ],
+  "shelf_misplaced_produce_160.jpg": [
+    "Misplaced carrots in wrong aisle"
+  ],
+  "shelf_full_meat_161.jpg": [
+    "Shelf fully stocked with fish",
+    "aisle fully stocked with fish",
+    "section fully stocked with fish",
+    "display fully stocked with fish"
+  ],
+  "shelf_full_meat_162.jpg": [
+    "meat aisle well organized and stocked"
+  ],
+  "shelf_full_meat_163.jpg": [
+    "meat section completely filled with products",
+    "meat section completely filled with items",
+    "meat section completely filled with goods",
+    "meat section completely filled with merchandise"
+  ],
+  "shelf_half-empty_meat_164.jpg": [
+    "meat section partially stocked, missing deli meat"
+  ],
+  "shelf_half-empty_meat_165.jpg": [
+    "meat section partially stocked, missing chicken"
+  ],
+  "shelf_half-empty_meat_166.jpg": [
+    "Partial inventory in meat section"
+  ],
+  "shelf_sparse_meat_167.jpg": [
+    "meat shelf sparse, only few items",
+    "meat aisle sparse, only few items",
+    "meat section sparse, only few items",
+    "meat display sparse, only few items",
+    "meat shelf low, only few items"
+  ],
+  "shelf_sparse_meat_168.jpg": [
+    "Few fish remaining on shelf",
+    "Few fish remaining on aisle",
+    "Few fish remaining on section",
+    "Few fish remaining on display"
+  ],
+  "shelf_sparse_meat_169.jpg": [
+    "meat aisle nearly empty",
+    "meat aisle nearly vacant",
+    "meat aisle nearly bare",
+    "meat aisle nearly cleared"
+  ],
+  "shelf_empty_meat_170.jpg": [
+    "Urgent: meat shelf out of stock",
+    "Urgent: meat aisle out of stock",
+    "Urgent: meat section out of stock",
+    "Urgent: meat display out of stock"
+  ],
+  "shelf_empty_meat_171.jpg": [
+    "Urgent: meat shelf out of stock",
+    "Urgent: meat aisle out of stock",
+    "Urgent: meat section out of stock",
+    "Urgent: meat display out of stock"
+  ],
+  "shelf_messy_meat_172.jpg": [
+    "meat shelf untidy, products misaligned",
+    "meat aisle untidy, products misaligned",
+    "meat section untidy, products misaligned",
+    "meat display untidy, products misaligned",
+    "meat shelf untidy, items misaligned"
+  ],
+  "shelf_messy_meat_173.jpg": [
+    "meat shelf untidy, products misaligned",
+    "meat aisle untidy, products misaligned",
+    "meat section untidy, products misaligned",
+    "meat display untidy, products misaligned",
+    "meat shelf untidy, items misaligned"
+  ],
+  "shelf_messy_meat_174.jpg": [
+    "Disorganized meat section needs cleanup"
+  ],
+  "shelf_overstocked_meat_175.jpg": [
+    "meat section overfilled with inventory"
+  ],
+  "shelf_overstocked_meat_176.jpg": [
+    "Excessive stock in meat aisle"
+  ],
+  "shelf_overstocked_meat_177.jpg": [
+    "Excessive stock in meat aisle"
+  ],
+  "shelf_misplaced_meat_178.jpg": [
+    "Misplaced deli meat in wrong aisle"
+  ],
+  "shelf_misplaced_meat_179.jpg": [
+    "meat section has incorrect products",
+    "meat section has incorrect items",
+    "meat section has incorrect goods",
+    "meat section has incorrect merchandise"
+  ],
+  "shelf_misplaced_meat_180.jpg": [
+    "meat section has incorrect products",
+    "meat section has incorrect items",
+    "meat section has incorrect goods",
+    "meat section has incorrect merchandise"
+  ],
+  "shelf_full_mixed_181.jpg": [
+    "mixed display fully supplied and organized"
+  ],
+  "shelf_full_mixed_182.jpg": [
+    "Shelf fully stocked with different products",
+    "aisle fully stocked with different products",
+    "section fully stocked with different products",
+    "display fully stocked with different products",
+    "Shelf fully stocked with different items"
+  ],
+  "shelf_full_mixed_183.jpg": [
+    "mixed section completely filled with products",
+    "mixed section completely filled with items",
+    "mixed section completely filled with goods",
+    "mixed section completely filled with merchandise"
+  ],
+  "shelf_half-empty_mixed_184.jpg": [
+    "mixed shelf needs refilling soon",
+    "mixed aisle needs refilling soon",
+    "mixed section needs refilling soon",
+    "mixed display needs refilling soon"
+  ],
+  "shelf_half-empty_mixed_185.jpg": [
+    "mixed shelf half empty, needs restocking",
+    "mixed aisle half empty, needs restocking",
+    "mixed section half empty, needs restocking",
+    "mixed display half empty, needs restocking",
+    "mixed shelf half vacant, needs restocking"
+  ],
+  "shelf_half-empty_mixed_186.jpg": [
+    "mixed shelf half empty, needs restocking",
+    "mixed aisle half empty, needs restocking",
+    "mixed section half empty, needs restocking",
+    "mixed display half empty, needs restocking",
+    "mixed shelf half vacant, needs restocking"
+  ],
+  "shelf_sparse_mixed_187.jpg": [
+    "mixed aisle nearly empty",
+    "mixed aisle nearly vacant",
+    "mixed aisle nearly bare",
+    "mixed aisle nearly cleared"
+  ],
+  "shelf_sparse_mixed_188.jpg": [
+    "mixed shelf sparse, only few items",
+    "mixed aisle sparse, only few items",
+    "mixed section sparse, only few items",
+    "mixed display sparse, only few items",
+    "mixed shelf low, only few items"
+  ],
+  "shelf_sparse_mixed_189.jpg": [
+    "Few different products remaining on shelf",
+    "Few different items remaining on shelf",
+    "Few different goods remaining on shelf",
+    "Few different merchandise remaining on shelf",
+    "Few different products remaining on aisle"
+  ],
+  "shelf_empty_mixed_190.jpg": [
+    "No different products available on shelf",
+    "No different items available on shelf",
+    "No different goods available on shelf",
+    "No different merchandise available on shelf",
+    "No different products available on aisle"
+  ],
+  "shelf_empty_mixed_191.jpg": [
+    "mixed shelf completely empty, urgent restock",
+    "mixed aisle completely empty, urgent restock",
+    "mixed section completely empty, urgent restock",
+    "mixed display completely empty, urgent restock",
+    "mixed shelf completely vacant, urgent restock"
+  ],
+  "shelf_messy_mixed_192.jpg": [
+    "mixed shelf disorganized, products scattered",
+    "mixed aisle disorganized, products scattered",
+    "mixed section disorganized, products scattered",
+    "mixed display disorganized, products scattered",
+    "mixed shelf disorganized, items scattered"
+  ],
+  "shelf_messy_mixed_193.jpg": [
+    "Scattered assorted items in mixed aisle"
+  ],
+  "shelf_messy_mixed_194.jpg": [
+    "mixed shelf untidy, products misaligned",
+    "mixed aisle untidy, products misaligned",
+    "mixed section untidy, products misaligned",
+    "mixed display untidy, products misaligned",
+    "mixed shelf untidy, items misaligned"
+  ],
+  "shelf_overstocked_mixed_195.jpg": [
+    "mixed section overfilled with inventory"
+  ],
+  "shelf_overstocked_mixed_196.jpg": [
+    "mixed shelf overstocked, products stacked high",
+    "mixed aisle overstocked, products stacked high",
+    "mixed section overstocked, products stacked high",
+    "mixed display overstocked, products stacked high",
+    "mixed shelf overstocked, items stacked high"
+  ],
+  "shelf_overstocked_mixed_197.jpg": [
+    "mixed section overfilled with inventory"
+  ],
+  "shelf_misplaced_mixed_198.jpg": [
+    "mixed section has incorrect products",
+    "mixed section has incorrect items",
+    "mixed section has incorrect goods",
+    "mixed section has incorrect merchandise"
+  ],
+  "shelf_misplaced_mixed_199.jpg": [
+    "Items in wrong mixed location"
+  ],
+  "shelf_misplaced_mixed_200.jpg": [
+    "Items in wrong mixed location"
+  ]
+}
